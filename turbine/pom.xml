@@ -32,6 +32,11 @@
             <artifactId>spring-cloud-starter-turbine</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>

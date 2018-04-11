@@ -9,8 +9,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sunnykaka/mysteam-config-repo
-          # uri: file:///D:/opensource/workspace/mysteam-config-repo
+          #uri: https://github.com/sunnykaka/mysteam-config-repo
+          uri: file:///H:/demo/mysteam-config
           basedir: target/config
           searchPaths: "*"
 
@@ -19,8 +19,8 @@ spring:
       instanceIndex: 0
       kafka:
         binder:
-          brokers: 192.168.239.129:9092,192.168.239.129:9093,192.168.239.129:9094
-          zkNodes: 192.168.239.129:2181
+          brokers: 120.79.230.163:9092
+          zkNodes: 120.79.230.163:2181,120.79.230.163:2182,120.79.230.163:2183
           offsetUpdateTimeWindow: 10000
           #offsetUpdateCount: 0
           requiredAcks: 1
